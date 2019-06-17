@@ -1,0 +1,260 @@
+/*Componentes del sitio*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  margin-left: 260px;
+  padding: 260px 90px;
+  font-family: "Lato", sans-serif;
+}
+
+hr {
+  border: 2px solid #A6A5A8;
+}
+
+.experience-text, .skills-text, .contact-text, .education-text {
+  font-size: 60px;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+.sidenav a {
+  font-size: 24px;
+}
+
+@media (max-width: 1400px) {
+  .sidenav {
+    padding-top: 260px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+img {
+  border-radius: 50%;
+  width: 75%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  font-family: "Lato", sans-serif;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #7CEA9C;
+  overflow-x: hidden;
+  padding-top: 234px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2D3047;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #A6A5A8;
+}
+
+input {
+  background-color: #FFFFFF;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #071013;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid #A6A5A8;
+}
+
+/*First section*/
+.section-1 {
+  height: 430px;
+}
+.section-1 .main-text {
+  font-size: 68px;
+  color: #2D3047;
+}
+.section-1 .second_text {
+  font-size: 20px;
+  color: #2D3047;
+}
+.section-1 .paragraph_1 {
+  padding-top: 30px;
+}
+
+h3 {
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+p {
+  font-weight: 300;
+  padding-top: 30px;
+  width: 90%;
+  font-size: 20px;
+  color: #071013;
+  line-height: 27px;
+}
+
+.icons_group {
+  display: inline-block;
+  text-align: left;
+}
+.icons_group i {
+  color: #2D3047;
+  padding-top: 60px;
+  padding-right: 10px;
+}
+
+/*Second section*/
+.section-2 {
+  color: #2D3047;
+  padding-bottom: 150px;
+}
+
+.experience-text, .skills-text, .education-text {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.subtitle_1, .subtitle_2, .subtitle_3 {
+  font-size: 20px;
+}
+
+p {
+  font-weight: 300;
+}
+
+h2 {
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+span {
+  text-align: right;
+  font-weight: 300;
+  font-size: 20px;
+  display: block;
+}
+
+.experience-text p {
+  padding-bottom: 40px;
+}
+
+/*Third section*/
+.section-3 {
+  color: #2D3047;
+  padding-bottom: 150px;
+}
+
+.education-text {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.education_text p {
+  font-weight: 300;
+}
+
+/*Fourth section*/
+.section-4 {
+  color: #2D3047;
+  padding-bottom: 90px;
+}
+
+.skills_text h2, .skills_text p {
+  padding-top: 50px;
+}
+.skills_text p {
+  padding-bottom: 40px;
+}
+
+/*Fifth section*/
+.section-5 {
+  color: #2D3047;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.input-text p {
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */

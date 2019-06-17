@@ -1,0 +1,120 @@
+
+
+
+/*First section*/
+.section-1 {
+  height: 430px;
+
+    .main-text {
+      font-size: $xxx-large;
+      color: $navy;
+    }
+    .second_text {
+      font-size: $large;
+      color: $navy;
+    }
+    .paragraph_1 {
+      padding-top: 30px;
+    }
+}
+
+h3 {
+  font-weight: $regular;
+  padding-top: 10px;
+}
+p {
+  font-weight: 300;
+  padding-top: 30px;
+  width: 90%;
+  font-size: $large;
+  color: $smoky;
+  line-height: 27px;
+}
+.icons_group {
+  display: inline-block;
+  text-align: left;
+
+  i {
+  color: $navy;
+  padding-top: 60px;
+  padding-right: 10px;
+ }
+}
+
+/*Second section*/
+
+.section-2 {
+  color: $navy;
+  padding-bottom: 150px;
+}
+    .experience-text, .skills-text, .education-text {
+      padding-bottom: 80px;
+      padding-top: 80px;
+    }
+
+    .subtitle_1, .subtitle_2, .subtitle_3 {
+      font-size: $large;
+    }
+
+
+    p {
+      font-weight: $light;
+    }
+
+    h2 {
+      display: block;
+      font-weight: $bold;
+      font-size: $x-large;
+      padding-top: 15px;
+    }
+      span {
+        text-align: right;
+        font-weight: $light;
+        font-size: $large;
+        display: block;
+       }
+    .experience-text p {
+      padding-bottom: 40px;
+    }
+
+/*Third section*/
+.section-3 {
+  color: $navy;
+  padding-bottom: 150px;
+}
+  .education-text {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+ .education_text {
+   p {
+   font-weight: $light;
+   }
+ }
+
+/*Fourth section*/
+.section-4 {
+  color: $navy;
+  padding-bottom: 90px;
+}
+.skills_text{
+  h2, p {
+    padding-top: 50px;
+  }
+  p{
+    padding-bottom: 40px;
+  }
+}
+
+
+/*Fifth section*/
+.section-5 {
+  color: $navy;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+.input-text {
+p {
+  font-weight: $regular;
+  }
+}

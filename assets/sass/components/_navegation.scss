@@ -1,0 +1,52 @@
+
+@media (max-width: 1400px) {
+  .sidenav {padding-top: 260px;}
+  .sidenav a {font-size: 18px;}
+}
+
+img {
+  border-radius: 50%;
+  width: 75%
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  font-family: $lato;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $pastel-green;
+  overflow-x: hidden;
+  padding-top: 234px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: $navy;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: $silver;
+}
+
+
+input {
+  background-color: $white;
+  font-family: $lato;
+  font-size: $medium;
+  font-weight: $light;
+  color: $smoky;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid $silver;
+
+}
